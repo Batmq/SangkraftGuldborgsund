@@ -1,0 +1,17 @@
+{
+  "name": "skabelon",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch --update --style=compressed css:css"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.58.1"
+  },
+  "dependencies": {
+    "bootstrap": "^5.2.3"
+  }
+}
