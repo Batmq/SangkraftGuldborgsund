@@ -1,10 +1,55 @@
 $ColorRed: "#bb4430";
 
-.container-fluid{
+* { /* Gælder alt på hele siden */
+  box-sizing: border-box; /* Bokse har altid den størrelse man giver uanset om der tilføjes margen, padding mv. */
+}
+
+/* Ovenstående kode kan give problemer ved nogle 3. parts scripts man henter. Men det gør det nemmere at forstå og lave kodning når man starter. */
+
+body {
+  background-color: #fffcec;
+}
+
+.bg-img-top{
+  width: 100vw;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+
+
+.Pf{
   background-color: #bb4430;
-  height: 100px;
+}
 
-  .Nav{
-  }
+.Sf{
+  background-color: #ED9B28;
+}
 
+.Tf{
+  background-color: #15898D;
+}
+
+.Nav{
+  height: 700px;
+}
+
+/*font color*/
+.fc{
+  color: #fffcec;
+}
+
+a{
+  color: #fffcec;
+  text-decoration: none;
+}
+
+.MT{
+  margin-top: 6rem;
+}
+
+.HeigtBox{
+  height: 200px;
 }
