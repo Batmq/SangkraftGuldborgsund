@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Lag_1" data-name="Lag 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 123.57 85.04">
+  <defs>
+    <style>
+      .cls-1 {
+        letter-spacing: 0em;
+      }
+
+      .cls-2 {
+        letter-spacing: -.07em;
+      }
+
+      .cls-3 {
+        letter-spacing: 0em;
+      }
+
+      .cls-4 {
+        letter-spacing: -.01em;
+      }
+
+      .cls-5 {
+        font-size: 28.39px;
+      }
+
+      .cls-5, .cls-6, .cls-7 {
+        fill: #ec9a28;
+      }
+
+      .cls-5, .cls-7 {
+        font-family: BelyDisplay-Regular, 'Bely Display';
+      }
+
+      .cls-8 {
+        fill: none;
+        stroke: #ec9a28;
+        stroke-miterlimit: 10;
+        stroke-width: .5px;
+      }
+
+      .cls-9 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-7 {
+        font-size: 12.66px;
+      }
+
+      .cls-10 {
+        letter-spacing: -.06em;
+      }
+    </style>
+  </defs>
+  <text class="cls-5" transform="translate(0 63.33) scale(.89 1)"><tspan x="0" y="0">Sang</tspan><tspan class="cls-1" x="67.32" y="0">k</tspan><tspan class="cls-9" x="86.06" y="0">r</tspan><tspan x="99.18" y="0">aft</tspan></text>
+  <line class="cls-8" x1="59.66" y1="69.04" x2="121.71" y2="69.04"/>
+  <text class="cls-7" transform="translate(.79 81.52) scale(.85 1)"><tspan class="cls-2" x="0" y="0">L</tspan><tspan class="cls-10" x="7.69" y="0">y</tspan><tspan class="cls-4" x="14.54" y="0">d</tspan><tspan x="22.7" y="0">en af Gu</tspan><tspan class="cls-4" x="72.49" y="0">l</tspan><tspan class="cls-3" x="76.63" y="0">dborgsu</tspan><tspan class="cls-4" x="128.16" y="0">n</tspan><tspan x="136.35" y="0">d</tspan></text>
+  <line class="cls-8" x1=".89" y1="69.04" x2="41.23" y2="69.04"/>
+  <g>
+    <path class="cls-6" d="M44.72,31.92s3.76-5.02,4.96-14.04-3.16-10.02-4.35-10.17-5.43,1.09-5.43,6.61,4.82,17.61,4.82,17.61Z"/>
+    <path class="cls-6" d="M42.37,3.77c-.43-1.84,1.21-3.98,2.91-3.75,1.22,.16,2.37,1.52,2.25,3.14-.1,1.44-1.17,2.59-2.45,2.7-1.29,.1-2.44-.88-2.72-2.09Z"/>
+    <path class="cls-6" d="M29.84,36.77s3.76-5.02,4.96-14.04c1.2-9.02-3.16-10.02-4.35-10.17s-5.43,1.09-5.43,6.61,4.82,17.61,4.82,17.61Z"/>
+    <path class="cls-6" d="M27.5,8.61c-.43-1.84,1.21-3.98,2.91-3.75,1.22,.16,2.37,1.52,2.25,3.14-.1,1.44-1.17,2.59-2.45,2.7-1.29,.1-2.44-.88-2.72-2.09Z"/>
+    <path class="cls-6" d="M62.31,37.63s3.76-5.02,4.96-14.04c1.2-9.02-3.16-10.02-4.35-10.17s-5.43,1.09-5.43,6.61,4.82,17.61,4.82,17.61Z"/>
+    <path class="cls-6" d="M59.96,9.48c-.43-1.84,1.21-3.98,2.91-3.75,1.22,.16,2.37,1.52,2.25,3.14-.1,1.44-1.17,2.59-2.45,2.7-1.29,.1-2.44-.88-2.72-2.09Z"/>
+    <path class="cls-6" d="M80.98,33.5s-3.76-5.02-4.96-14.04c-1.2-9.02,3.16-10.02,4.35-10.17s5.43,1.09,5.43,6.61-4.82,17.61-4.82,17.61Z"/>
+    <path class="cls-6" d="M83.32,5.35c.43-1.84-1.21-3.98-2.91-3.75-1.22,.16-2.37,1.52-2.25,3.14,.1,1.44,1.17,2.59,2.45,2.7,1.29,.1,2.44-.88,2.72-2.09Z"/>
+    <path class="cls-6" d="M95.85,38.34s-3.76-5.02-4.96-14.04c-1.2-9.02,3.16-10.02,4.35-10.17s5.43,1.09,5.43,6.61-4.82,17.61-4.82,17.61Z"/>
+    <path class="cls-6" d="M98.2,10.19c.43-1.84-1.21-3.98-2.91-3.75-1.22,.16-2.37,1.52-2.25,3.14,.1,1.44,1.17,2.59,2.45,2.7,1.29,.1,2.44-.88,2.72-2.09Z"/>
+  </g>
+</svg>
