@@ -42,8 +42,8 @@ body {
 }
 
 a{
-  color: #fffcec;
-  text-decoration: none;
+  color: #fffcec !important;
+  text-decoration: none !important;
 }
 
 .MT{
@@ -58,7 +58,8 @@ a{
   background-color: #ed9b28 !important;
   color: #fffcec !important;
   width: 10rem;
-  height: 2.5rem;
+  height: 3rem;
+  font-size: 1.5rem !important;
 }
 
 .img-aktuel{
