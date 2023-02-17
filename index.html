@@ -20,6 +20,7 @@
     <!-- Sikrer man kan benytte CSS ved at tilkoble en CSS fil -->
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/127871dc4e.js" crossorigin="anonymous"></script>
 
 
 
@@ -31,9 +32,40 @@
 <body>
 
 <!--Navigation-->
-<img class="bg-img-top" src="images/Nav.png" alt="NavBar">
+<!--Mobil Nav-->
+<div class="container-fluid d-md-none Pf">
+    <nav class="navbar navbar-dark">
+        <div class="container">
+            <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#n_bar" aria-controls="navbarNavAltMarkup" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="n_bar">
+                <ul class="navbar-nav">
+                    <li class="nav-item active"><a class="nav-link" href="#">Forside</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Aktuelt</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Events</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Vær med</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Om</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Projekter</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Følg med</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Kontakt</a></li>
 
-<div class="container Nav">
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="row">
+        <div class="col-2"></div>
+        <div class="col-8">
+            <div><img class="mb-5 mt-5" src="images/LogoSangkraftVektor.svg"></div>
+        </div>
+        <div class="col-2"></div>
+
+    </div>
+</div>
+
+<div class="container Nav d-none d-md-block">
+    <img class="bg-img-top" src="images/Nav.png" alt="NavBar">
     <div class="row mt-4 fs-5 fc text-center justify-content-center">
         <div class="col-1"><a href="#">Forside</a></div>
         <div class="col-1"><a href="#">Aktuelt</a></div>
@@ -48,9 +80,6 @@
     </div>
 </div>
 
-<div class="container Nav mt-5 mb-5" style="background-color: yellow"></div>
-
-<div class="container Nav mb-5" style="background-color: yellow"></div>
 
 
 
@@ -60,10 +89,67 @@
 
 
 
-<!--Footer-->
-<div class="container-fluid">
-    <img class="bg-img-bund" src="images/guldborgsund%20bund.png">
+<!--Mobil version Footer-->
+<div class="container-fluid d-md-none MT">
+    <div class="row">
+        <img src="images/guldborgsund%20bund.png" class="Footer p-0">
+    </div>
+    <div class="row HeigtBox"></div>
+    <div class="row ">
+        <div class="col-2"></div>
+        <div class="col-8"><img src="images/LogoSangkraftVektorHvidt.svg"></div>
+        <div class="col-2"></div>
+    </div>
+    <div class="row mt-5 text-center fc">
+        <p>Vejnavn 00 <br> 0000 by</p>
+    </div>
+    <div class="row mt-5 text-center fc">
+        <p>email@email.dk <br> +45 00 11 22 33</p>
+    </div>
+    <div class="row text-center fc mt-3" style="font-size: 2rem">
+        <div class="col-3"></div>
+        <div class="col-2"><i class="fa-brands fa-facebook"></i></div>
+        <div class="col-2"><i class="fa-brands fa-instagram"></i></div>
+        <div class="col-2"><i class="fa-brands fa-youtube"></i></div>
+    </div>
+    <div class="row mt-5 text-center fc" style="font-size: 0.7em">
+        <p>Sangkraft - Lyden af Guldborgsund // CVR: 00112233 <br> Cookie- og privatlivsindstillinger</p>
+    </div>
 </div>
+
+
+<!--Desktop version-->
+<div class="container-fluid MT d-none d-md-block">
+    <div class="row">
+        <img src="images/guldborgsundbundDesktop.svg" class="Footer p-0">
+    </div>
+    <div class="row" style="height: 16rem"></div>
+    <div class="row mt-5 fc fs-4">
+        <div class="col-1"></div>
+        <div class="col-2">
+            <div class="row"><img src="images/LogoSangkraftVektorHvidt.svg"></div>
+            <div class="row mt-5"><p>Vejnavn 00 <br> 0000 by</p></div>
+            <div class="row mt-3"><p>email@email.dk <br> +45 00 11 22 33</p></div>
+        </div>
+        <div class="col-4"></div>
+        <div class="col-2"></div>
+        <div class="col-2 text-center" style="font-size: 5rem;">
+            <div class="row" style="height: 3rem"></div>
+            <div class="row"><i class="fa-brands fa-facebook"></i></div>
+            <div class="row mt-4"><i class="fa-brands fa-instagram"></i></div>
+            <div class="row mt-4"><i class="fa-brands fa-youtube"></i></div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12 fc text-center">Sangkraft - Lyden af Guldborgsund // CVR: 00112233 <br> Cookie- og privatlivsindstillinger</div>
+    </div>
+
+
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+
 
 </body>
 </html>
