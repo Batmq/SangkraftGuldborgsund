@@ -58,6 +58,7 @@ a{
   background-color: #ed9b28 !important;
   color: #fffcec !important;
   width: 8rem;
+  height: 2.5rem;
 }
 
 .img-aktuel{
@@ -74,4 +75,8 @@ a{
   width: 100vw;
   position: absolute;
   z-index: -1;
+}
+
+.fontsizebig{
+  font-size: 50px;
 }
