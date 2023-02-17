@@ -1,7 +1,6 @@
 {
   "name": "skabelon",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "sass": "sass --watch --update --style=compressed css:css"
@@ -13,5 +12,14 @@
   },
   "dependencies": {
     "bootstrap": "^5.2.3"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Batmq/SangkraftGuldborgsund.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Batmq/SangkraftGuldborgsund/issues"
+  },
+  "homepage": "https://github.com/Batmq/SangkraftGuldborgsund#readme",
+  "description": ""
 }
