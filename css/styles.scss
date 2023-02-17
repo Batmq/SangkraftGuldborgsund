@@ -55,6 +55,10 @@ a{
   font-size: 4rem;
 }
 
+.fsOverskriftMobil{
+  font-size: 1.7rem;
+}
+
 .HeigtBox{
   height: 200px;
 }
@@ -89,4 +93,15 @@ a{
 
 .fontsizebig{
   font-size: 50px;
+}
+
+@media screen and (max-width: 768px) {
+  .btn{
+    background-color: #ed9b28 !important;
+    color: #fffcec !important;
+    width: 7rem;
+    height: 2rem;
+    font-size: 0.7rem !important;
+  }
+
 }
