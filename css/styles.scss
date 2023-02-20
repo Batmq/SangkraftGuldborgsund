@@ -119,9 +119,16 @@ a{
   .btn{
     background-color: #ed9b28 !important;
     color: #fffcec !important;
-    width: 7rem;
+    width: 9rem;
     height: 2rem;
     font-size: 0.8rem !important;
   }
 
+}
+
+.sangkraftcenter{
+  object-fit: cover;
+  width: 100%;
+  height: auto;
+  z-index: -1;
 }
