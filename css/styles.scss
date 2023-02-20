@@ -64,7 +64,7 @@ a{
 }
 
 .HeigtBox{
-  height: 300px;
+  height: 200px;
 }
 
 .HeightUnderBox{
@@ -150,6 +150,16 @@ a{
   right: 0;
 
 }
+
+/*knap til omside (samarbejdspartere)*/
+.knap{
+  background-color: #ed9b28 !important;
+  color: #fffcec !important;
+  width: 16rem;
+  height: 3rem;
+  font-size: 1.5rem !important;
+}
+
 
 .sangkraftcenter{
   object-fit: cover;
