@@ -151,6 +151,16 @@ a{
 
 }
 
+/*knap til omside (samarbejdspartere)*/
+.knap{
+  background-color: #ed9b28 !important;
+  color: #fffcec !important;
+  width: 16rem;
+  height: 3rem;
+  font-size: 1.5rem !important;
+}
+
+
 @media screen and (max-width: 768px) {
   .btn{
     background-color: #ed9b28 !important;
