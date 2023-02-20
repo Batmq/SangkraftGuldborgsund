@@ -64,7 +64,7 @@ a{
 }
 
 .HeigtBox{
-  height: 200px;
+  height: 300px;
 }
 
 .HeightUnderBox{
@@ -151,6 +151,19 @@ a{
 
 }
 
+.sangkraftcenter{
+  object-fit: cover;
+  width: 100%;
+  height: auto;
+  z-index: -1;
+}
+
+.Illustrationer{
+  object-fit: cover;
+  width: 100%;
+  height: auto;
+}
+
 @media screen and (max-width: 768px) {
   .btn{
     background-color: #ed9b28 !important;
@@ -160,11 +173,4 @@ a{
     font-size: 0.8rem !important;
   }
 
-}
-
-.sangkraftcenter{
-  object-fit: cover;
-  width: 100%;
-  height: auto;
-  z-index: -1;
 }
